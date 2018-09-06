@@ -9,10 +9,7 @@ class NuxtBuild extends Command {
    * @return {string}
    */
   static get signature () {
-		return `
-			nuxt:build
-			{ --analyze : Analyze JS Bundles }
-		`
+    return `nuxt:build { -a --analyze : Analyze JS Bundle }`
   }
 
   /**
@@ -22,7 +19,7 @@ class NuxtBuild extends Command {
    */
   static get description () {
     return 'Build your Nuxt app'
-}
+  }
   /**
    * Method called when command is executed. This method will
    * require all files from the migrations directory
@@ -38,10 +35,10 @@ class NuxtBuild extends Command {
 
     new Nuxt({
       ...Config.get('nuxt'),
-			dev: false, // Force dev: false to build for production
-			build: {
-				analyze: !!flags.analyze
-			}
+      dev: false, // Force dev: false to build for production
+      build: {
+        analyze: !!flags.analyze
+      }
     }).build()
   }
 
