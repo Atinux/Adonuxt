@@ -15,7 +15,7 @@ module.exports = {
    *
    * https://nuxtjs.org/api/configuration-srcdir
    */
-  srcDir: Helpers.appRoot('resources/nuxt'),
+  srcDir: Helpers.resourcesPath('nuxt'),
 
   /**
    * Define the dist directory for your Nuxt.js application.
