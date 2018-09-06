@@ -1,0 +1,20 @@
+# Dependencies
+node_modules
+package-lock.json
+
+
+# Logs
+npm-debug.log
+
+# Coverage
+coverage
+coverage.lcov
+.nyc_output
+
+# Editors
+.vscode
+.idea
+
+
+# Mac preferences
+**/.DS_Store

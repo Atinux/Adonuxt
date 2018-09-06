@@ -1,0 +1,28 @@
+{
+  "name": "adonuxt",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/Nuxt.js",
+  "scripts": {
+    "lint": "eslint --ext .js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atinux/Adonuxt.git"
+  },
+  "author": "Sebastien Chopin (@Atinux)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Atinux/Adonuxt/issues"
+  },
+  "homepage": "https://github.com/Atinux/Adonuxt",
+  "devDependencies": {
+    "@adonisjs/ace": "^5.0.4",
+    "@adonisjs/fold": "^4.0.9",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.5.0"
+  },
+  "peerDependencies": {
+    "nuxt-edge": "2.x"
+  }
+}
