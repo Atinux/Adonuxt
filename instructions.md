@@ -1,7 +1,7 @@
 ## Install Nuxt.js into your project
 
 ```bash
-npm install --save nuxt-edge
+npm install --save nuxt
 ```
 
 ## Registering provider

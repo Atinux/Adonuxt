@@ -23,6 +23,6 @@
     "eslint": "^5.5.0"
   },
   "peerDependencies": {
-    "nuxt-edge": "2.x"
+    "nuxt": "2.x"
   }
 }
